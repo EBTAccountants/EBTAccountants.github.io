@@ -7,46 +7,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Our Services</h1>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">EBT Accountants</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Accounting</h2>
-            <p>Accounting involves recording financial transactions in a systemic way, to comply with all accounting standards and regulations for the purposes of financial reporting.</p>
-            <p>We ensure all financial data is accurately recorded and organised, to assist our clients in making well-informed decisions with regards to the business's financial well-being, growth, and future sustainability.</p>
-            <p>We will assist your business with the full accounting function to ensure accurate tracking, reporting, execution, as well as prediction of financial transactions. We also assist in completing and filing your monthly VAT returns.</p>
-        </section>
-        <section>
-            <h2>Taxation</h2>
-            <p>Our taxation services help individuals and businesses to prepare and file all applicable tax returns on a timeous basis.</p>
-            <p>We assist in completing various tax returns, identifying deductions, and maximising tax benefits while ensuring compliance with tax laws and regulations.</p>
-            <ul>
-                <li>Individual and Company Tax Returns (Including Capital Gains Tax)</li>
-                <li>VAT</li>
-                <li>PAYE, UIF, and SDL</li>
-                <li>Donations Tax</li>
-                <li>Turnover Tax</li>
-            </ul>
-            <p>We also offer:</p>
-            <ul>
-                <li>Registration with SARS for various taxes and levies and statutory returns</li>
-                <li>Assisting with objections and appeals</li>
-                <li>Obtaining of various tax clearances and certificates of good standing</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Financial Statement Preparation</h2>
-            <p>We prepare financial statements, such as Income statements, Balance sheets, and Cash flow statements as well as monthly Management accounts in order to provide a comprehensive overview of an organisation's financial health and performance.</p>
-        </section>
-        <section>
-            <h2>Consulting</h2>
-            <p>We offer financial consulting to individuals and businesses to assist them to obtain specific expertise and identify problems. We also view your financial position objectively to provide a different perspective and deliver results for the wellbeing of your business and all stakeholders involved.</p>
-            <p>We also assist in teaching new and innovative ways of financial thinking to launch and grow your business and ensure the sustainability of your business.</p>
-        </section>
-    </main>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="images/accounting-service.jpg" alt="Accounting">
+                    <h3>Accounting</h3>
+                    <p>Recording financial transactions in a systemic way to comply with all accounting standards and regulations.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/taxation-service.jpg" alt="Taxation">
+                    <h3>Taxation</h3>
+                    <p>Helping individuals and businesses prepare and file all applicable tax returns on a timely basis.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/financial-statements-service.jpg" alt="Financial Statement Preparation">
+                    <h3>Financial Statement Preparation</h3>
+                    <p>Providing comprehensive overviews of an organisation's financial health and performance.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/consulting-service.jpg" alt="Consulting">
+                    <h3>Consulting</h3>
+                    <p>Offering financial consulting to assist in identifying problems and providing expert advice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <a href="index.html">Home</a> | <a href="contact.html">Contact Us</a>
+        <div class="container">
+            <p>&copy; 2024 EBT Accountants. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
