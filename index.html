@@ -5,18 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EBT Accountants - Welcome</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to EBT Accountants</h1>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">EBT Accountants</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <p>We are dedicated to providing top-tier financial solutions tailored to meet your individual or business needs.</p>
-        <p>We are committed to delivering reliable and efficient accounting services to help you navigate the complexities of accounting and tax with ease.</p>
-        <p>Explore our website to learn more about our comprehensive range of services and how we can assist you in achieving your financial goals.</p>
-    </main>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to EBT Accountants</h2>
+            <p>We provide top-tier financial solutions tailored to your needs.</p>
+            <a href="services.html" class="cta-btn">Discover Our Services</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Why Choose Us?</h2>
+                <p>At EBT Accountants, we are committed to delivering reliable and efficient accounting services that help you navigate the complexities of finance with ease. Explore our comprehensive range of services and discover how we can help you achieve your financial goals.</p>
+            </div>
+            <img src="images/accounting.jpg" alt="Accounting Image">
+        </div>
+    </section>
+
     <footer>
-        <a href="services.html">Our Services</a> | <a href="contact.html">Contact Us</a>
+        <div class="container">
+            <p>&copy; 2024 EBT Accountants. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
