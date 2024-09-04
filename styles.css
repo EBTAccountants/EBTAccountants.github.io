@@ -227,9 +227,6 @@ footer p {
     display: none;
 }
 
-.card-details.show {
-    display: block;
-}
 
 .card-details ul {
     text-align: left;
