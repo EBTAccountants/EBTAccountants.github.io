@@ -234,6 +234,49 @@ footer p {
     margin-top: 10px;
 }
 
+.contact {
+    background-color: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.contact h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #00b4d8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.contact-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    margin: 5px 0;
+}
+
+.contact-item a {
+    color: #00b4d8;
+    text-decoration: none;
+}
 .card-details ul li {
     list-style-type: disc;
     margin-bottom: 5px;
