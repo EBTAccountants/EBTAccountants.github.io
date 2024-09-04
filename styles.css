@@ -36,22 +36,20 @@ body {
     margin: 0;
 }
 
-.navbar nav ul {
-    list-style: none;
-    padding: 0;
+.navbar ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.navbar nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+.navbar ul li {
+    margin-left: 20px;
 }
 
-.navbar nav ul li a {
-    color: #ffffff;
+.navbar ul li a {
+    color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
 }
 
 .navbar nav ul li a.active,
