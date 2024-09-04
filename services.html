@@ -33,30 +33,71 @@
             <div class="services-grid">
                 <!-- Accounting -->
                 <div class="service-card">
-                    <img src="accounting.jpg" alt="Accounting">
-                    <h3>Accounting</h3>
-                    <p>Recording financial transactions systematically to comply with standards and regulations for accurate financial reporting.</p>
+                    <div class="card-header">
+                        <img src="accounting.jpg" alt="Accounting">
+                        <h3>Accounting</h3>
+                        <p>Recording financial transactions systematically to comply with standards and regulations for accurate financial reporting.</p>
+                        <button class="expand-btn" onclick="toggleDetails(this)">Learn More</button>
+                    </div>
+                    <div class="card-details">
+                        <p>Accounting involves recording financial transactions in a systematic way, to comply with all accounting standards and regulations for the purposes of financial reporting.</p>
+                        <p>We ensure all financial data is accurately recorded and organized, to assist our clients in making well-informed decisions regarding the business's financial well-being, growth, and future sustainability.</p>
+                        <p>We will assist your business with the full accounting function to ensure accurate tracking, reporting, execution, as well as prediction of financial transactions. We also assist in completing and filing your monthly VAT returns.</p>
+                    </div>
                 </div>
 
                 <!-- Taxation -->
                 <div class="service-card">
-                    <img src="tax.jpg" alt="Taxation">
-                    <h3>Taxation</h3>
-                    <p>Preparation and filing of tax returns, maximizing tax benefits, and ensuring compliance with tax laws.</p>
+                    <div class="card-header">
+                        <img src="tax.jpg" alt="Taxation">
+                        <h3>Taxation</h3>
+                        <p>Preparation and filing of tax returns, maximizing tax benefits, and ensuring compliance with tax laws.</p>
+                        <button class="expand-btn" onclick="toggleDetails(this)">Learn More</button>
+                    </div>
+                    <div class="card-details">
+                        <p>Our taxation services help individuals and businesses to prepare and file all applicable tax returns on a timely basis.</p>
+                        <p>We assist in completing various tax returns, identifying deductions, and maximizing tax benefits while ensuring compliance with tax laws and regulations.</p>
+                        <ul>
+                            <li>Individual and Company Tax Returns (Including Capital Gains Tax)</li>
+                            <li>VAT</li>
+                            <li>PAYE, UIF, and SDL</li>
+                            <li>Donations Tax</li>
+                            <li>Turnover Tax</li>
+                        </ul>
+                        <p>We also offer:</p>
+                        <ul>
+                            <li>Registration with SARS for various taxes and levies and statutory returns</li>
+                            <li>Assisting with objections and appeals</li>
+                            <li>Obtaining of various tax clearances and certificates of good standing</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <!-- Financial Statement Preparation -->
                 <div class="service-card">
-                    <img src="fstatement.jpg" alt="Financial Statement Preparation">
-                    <h3>Financial Statement Preparation</h3>
-                    <p>Comprehensive financial statements like income statements, balance sheets, and cash flow statements.</p>
+                    <div class="card-header">
+                        <img src="fstatement.jpg" alt="Financial Statement Preparation">
+                        <h3>Financial Statement Preparation</h3>
+                        <p>Comprehensive financial statements like income statements, balance sheets, and cash flow statements.</p>
+                        <button class="expand-btn" onclick="toggleDetails(this)">Learn More</button>
+                    </div>
+                    <div class="card-details">
+                        <p>We prepare financial statements, such as Income statements, Balance sheets, and Cash flow statements, as well as monthly Management accounts, to provide a comprehensive overview of an organization’s financial health and performance.</p>
+                    </div>
                 </div>
 
                 <!-- Consulting -->
                 <div class="service-card">
-                    <img src="consulting.jpg" alt="Consulting">
-                    <h3>Consulting</h3>
-                    <p>Expert financial consulting to identify issues, provide new perspectives, and ensure business sustainability.</p>
+                    <div class="card-header">
+                        <img src="consulting.jpg" alt="Consulting">
+                        <h3>Consulting</h3>
+                        <p>Expert financial consulting to identify issues, provide new perspectives, and ensure business sustainability.</p>
+                        <button class="expand-btn" onclick="toggleDetails(this)">Learn More</button>
+                    </div>
+                    <div class="card-details">
+                        <p>We offer financial consulting to individuals and businesses to assist them in obtaining specific expertise and identifying problems. We also view your financial position objectively to provide a different perspective and deliver results for the well-being of your business and all stakeholders involved.</p>
+                        <p>We also assist in teaching new and innovative ways of financial thinking to launch and grow your business and ensure the sustainability of your business.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,6 +108,14 @@
             <p>&copy; 2024 EBT Accountants. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        function toggleDetails(button) {
+            const cardDetails = button.parentElement.nextElementSibling;
+            cardDetails.classList.toggle('show');
+            button.textContent = cardDetails.classList.contains('show') ? 'Show Less' : 'Learn More';
+        }
+    </script>
 </body>
 
 </html>
