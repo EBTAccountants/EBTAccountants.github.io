@@ -242,50 +242,48 @@ footer p {
     margin-top: 10px;
 }
 
+.card-details ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+/* Contact Section Styles */
 .contact {
+    padding: 2rem 0;
     background-color: #fff;
-    padding: 40px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin: 20px 0;
+}
+
+.contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact h2 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: #00b4d8;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.contact-info {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.contact-item {
-    flex: 1;
-    min-width: 250px;
-    margin: 10px;
-}
-
-.contact-item h3 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1rem;
     color: #333;
-    margin-bottom: 10px;
 }
 
-.contact-item p {
-    margin: 5px 0;
+.contact-details {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact-item a {
-    color: #00b4d8;
+.contact-details p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.contact-details a {
+    color: #00aaff;
     text-decoration: none;
+    font-weight: 500;
 }
-.card-details ul li {
-    list-style-type: disc;
-    margin-bottom: 5px;
+
+.contact-details a:hover {
+    text-decoration: underline;
 }
