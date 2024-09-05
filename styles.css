@@ -67,6 +67,12 @@ body {
     color: #ffffff;
 }
 
+.hero .container {
+    display: flex;
+    align-items: center; /* Centers the content vertically */
+    justify-content: space-between; /* Distributes space between text and image */
+}
+
 .hero-content {
     max-width: 600px;
 }
