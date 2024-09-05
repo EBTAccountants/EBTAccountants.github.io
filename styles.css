@@ -281,6 +281,7 @@ footer p {
 .contact-details a {
     color: #ffa500;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
