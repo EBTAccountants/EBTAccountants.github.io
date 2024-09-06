@@ -99,6 +99,7 @@ body {
     border-radius: 30px;
     transition: background-color 0.3s ease;
     display: inline-block;
+    margin-top: 1em;
 }
 
 .cta-btn:hover {
