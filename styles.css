@@ -74,7 +74,9 @@ body {
 }
 
 .hero-content {
-    max-width: 600px;
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: flex-start; /* Align content to the left (optional) */
 }
 
 .hero h2 {
